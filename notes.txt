@@ -1,0 +1,17 @@
+httplib2
+request
+urllib
+
+http request methods
+
+method = 'OPTIONS' provide all the available access control methods
+method = 'GET' is the default
+method = 'HEAD' is used to get only the headers
+
+similarty we can call post and put as well, something specific about put is it always produce the same response
+
+
+Urllib is build on top of httplib2
+post data need to be ecoded in urllib
+it is better use the urlopen with with parameter
+handling errors is important while trying to webscrape
