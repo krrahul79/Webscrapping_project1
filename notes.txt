@@ -15,3 +15,15 @@ Urllib is build on top of httplib2
 post data need to be ecoded in urllib
 it is better use the urlopen with with parameter
 handling errors is important while trying to webscrape
+
+
+Scrapy is a framework, not a library. The code written is invoked at the right time.
+
+DOM parsing(Document object model) various ways of parsing DOM 
+are using frameworks such as Scrapy, Selenium 
+
+framework vs library : inversion of control, framework calls the code.
+You call the code using the libraries
+
+framework defines the application and invokes the code for specific portions
+But in library you write the application and invoke library for specific portion
